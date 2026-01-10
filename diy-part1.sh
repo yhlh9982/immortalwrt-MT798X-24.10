@@ -19,7 +19,7 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf
 echo 'src-git nikiki https://github.com/nikkinikki-org/OpenWrt-nikki.git' >> feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
-echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
+# echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
 
 # 主题
 git clone --depth=1 https://github.com/eamonxg/luci-theme-aurora.git package/luci-theme-aurora
